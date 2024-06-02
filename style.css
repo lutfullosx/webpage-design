@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
+        url(mc.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;  
+}
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+   
+}
+.logo{
+    color: #00FFFF;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:  #D3D3D3;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #00FFFF;
+}
+
+
+.search{
+  width: 330px;
+  float: left ;
+  margin-left: 75px
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #00FFFF;
+    margin-top: 13px ;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px ;
+    height: 40px;
+    background: #00FFFF;
+    border: 2px solid #00FFFF;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+font-family: 'Times New Roman',;
+   font-size: 50px;
+   padding-left: 20px;
+   margin-top: 4%;
+   letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #00FFFF;
+    border: none;
+   margin-top: 2%;
+   margin-left: 5px;
+   font-size: 18px;
+   border-radius: 10px ;
+   cursor: pointer;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease ;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #00FFFF;
+    font-size: 60px;
+}
+
+
+.cn:hover{
+    color: #00FFFF;
+}
+
+.content h1{
+    color: #00FFFF;
+    font-size: 50px;
+}
+.form{
+    width: 290px;
+    height: 450px;
+    background: linear-gradient(to top,rgba(3, 210, 247, 0.8)50%,rgba(4, 210, 247, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #00FFFF;
+    font-size: 22px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form .btn a{
+    color: black;
+     
+}
+.form input{
+    width: 222px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #000404;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus
+{
+    outline: none;
+
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 222px;
+    height: 40px;
+    background: #00FFFF;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff
+    
+
+}
+.btnn:hover{
+    background: #fff;
+     color: #00FFFF;
+    }
+    .btnn a{
+        text-decoration: none;
+        color: #000404;
+        font-weight: bold; 
+    }
+    .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+    }
+   
+
+.form .link a{
+    text-decoration: none;
+    color: #00FFFF;
+
+}
+
+    
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon-links{
+    margin: 3px auto;
+    text-align: center;
+}
+.icon-links img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+     
+}
